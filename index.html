@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>
+            <center>The Calculator App</center>
+        </h1>
+    </header>
+    <main>
+        <div id="container" class="container">
+            <div id="text_box" class="text">
+                0
+            </div>
+            <input type="button" class="buttonAC" id="button" value="AC" onclick="clearText()">
+            <input type="button" class="symbol button+/-" value="+/-">
+            <input type="button" class="symbol button%" value="%" onclick="display(this)">
+            <input type="button" class="operation button/" value="&divide" onclick="display(this)">
+            <input type="button" class="button button7" value="7" onclick="display(this)">
+            <input type="button" class="button button8" value="8" onclick="display(this)">
+            <input type="button" class="button button9" value="9" onclick="display(this)">
+            <input type="button" class="operation buttonX" value="x" onclick="display(this)">
+            <input type="button" class="button button4" value="4" onclick="display(this)">
+            <input type="button" class="button button5" value="5" onclick="display(this)">
+            <input type="button" class="button button6" value="6" onclick="display(this)">
+            <input type="button" class="operation button-" value="-" onclick="display(this)">
+            <input type="button" id="button button1" class="button Button1"  value="1" onclick="display(this)">
+            <input type="button" id="button button2" class="button button2" value="2" onclick="display(this)">
+            <input type="button" id="button button3" class="button button3" value="3" onclick="display(this)">
+            <input type="button" id="button+" class="operation button+" value="+" onclick="display(this)">
+            <input type="button" id="button button0" class="button button0" value="0" onclick="display(this)">
+            <input type="button" id="button." class="button button." value="." onclick="display(this)">
+            <input type="button" id="EqualTo" class="operation equalto" value="=" onclick="calculate(this)">
+        </div>   
+    </main>     
+</body>
+</html>

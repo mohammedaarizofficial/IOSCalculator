@@ -1,0 +1,110 @@
+*{
+    color:"white";
+    font-weight:600;
+}
+
+input{
+    cursor: pointer;
+}
+#text_box{
+    text-align: right;
+    height:80px;
+    padding-right:15px;
+    font-size:30px;
+    font-weight: 400;
+}
+
+#calculations{
+    color:white;
+}
+
+.text{
+    color:white;
+}
+
+#text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(-50%);
+}
+/* .division, .multiplication, .subtraction, .addition, .equalto{
+    background-color: orange !important;
+} */
+/* div.container > #button{
+    position:relative;
+    background-color: grey;
+    color:white;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    float:left;
+    margin-right:20px;
+    margin-top:8px;
+} */
+
+.buttonAC{
+    margin-left:20px;
+    background-color: #A9A9A9!important;
+    color:black;
+    font-size: medium;
+}
+
+.button7{
+    margin-left:20px;
+}
+
+.button4{
+    margin-left:20px;
+}
+.Button1{
+    margin-left:20px;
+}
+.button0{
+    border-radius: 25px!important;
+    width:120px !important;
+    margin-left:20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+input{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    float:left;
+    margin-right:20px;
+    margin-top:8px;
+}
+
+#container{
+    position:relative;
+    background-color: black;
+    border: solid 15px grey;
+    height: 400px;
+    width:300px;
+    border-radius:25px;
+    margin:auto;
+    margin-top:100px;
+}
+
+.button{
+    background-color: #36454F;
+    color:white;
+    font-size:medium
+}
+
+.symbol{
+    background-color: #A9A9A9;
+    font-size: medium;
+}
+
+.operation{
+    background-color: orange;
+    color:white;
+    font-weight: 100;
+    font-size: x-large;
+}
