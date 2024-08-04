@@ -5,21 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>
-            <center>The Calculator App</center>
-        </h1>
+        <h1 style="text-align: center;">The Calculator App</h1>
     </header>
     <main>
         <div id="container" class="container">
-            <div id="text_box" class="text">
-                0
-            </div>
+            <div id="text_box" class="text">0</div>
             <input type="button" class="buttonAC" id="button" value="AC" onclick="clearText()">
-            <input type="button" class="symbol button+/-" value="+/-">
+            <input type="button" class="symbol button+/-" value="+/-" onclick="display(this)">
             <input type="button" class="symbol button%" value="%" onclick="display(this)">
             <input type="button" class="operation button/" value="÷" onclick="display(this)">
             <input type="button" class="button button7" value="7" onclick="display(this)">
@@ -30,14 +26,14 @@
             <input type="button" class="button button5" value="5" onclick="display(this)">
             <input type="button" class="button button6" value="6" onclick="display(this)">
             <input type="button" class="operation button-" value="-" onclick="display(this)">
-            <input type="button" id="button button1" class="button Button1"  value="1" onclick="display(this)">
+            <input type="button" id="button button1" class="button Button1" value="1" onclick="display(this)">
             <input type="button" id="button button2" class="button button2" value="2" onclick="display(this)">
             <input type="button" id="button button3" class="button button3" value="3" onclick="display(this)">
             <input type="button" id="button+" class="operation button+" value="+" onclick="display(this)">
             <input type="button" id="button button0" class="button button0" value="0" onclick="display(this)">
             <input type="button" id="button." class="button button." value="." onclick="display(this)">
-            <input type="button" id="EqualTo" class="operation equalto" value="=" onclick="calculate(this)">
-        </div>   
-    </main>     
+            <input type="button" id="EqualTo" class="operation equalto" value="=" onclick="calculate()">
+        </div>
+    </main>
 </body>
 </html>
