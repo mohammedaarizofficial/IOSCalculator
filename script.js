@@ -28,7 +28,7 @@ function calculate(){
         }else if(text[i]==="x"){
             let ans=x*y;
             textbox.innerText=ans;
-        }else if(text[i]==="/"){
+        }else if(text[i]==="÷"){
             let ans=x/y;
             textbox.innerText=ans;
         }
