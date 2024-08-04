@@ -31,20 +31,6 @@ input{
     margin: auto;
     transform: translateY(-50%);
 }
-/* .division, .multiplication, .subtraction, .addition, .equalto{
-    background-color: orange !important;
-} */
-/* div.container > #button{
-    position:relative;
-    background-color: grey;
-    color:white;
-    height:50px;
-    width:50px;
-    border-radius: 50%;
-    float:left;
-    margin-right:20px;
-    margin-top:8px;
-} */
 
 .buttonAC{
     margin-left:20px;
